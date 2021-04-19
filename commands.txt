@@ -1,0 +1,4 @@
+git branch - список локальных веток
+git branch -a -  список локальных и удаленных веток
+git checkout -b <branch name> /  git switch -c <branch name>  -  создание новой ветки с именем <branch name> + переключение на созданную ветку
+git merge <branch name> - слияние двух веток. Слияние происходит в ветку на которой мы находимся из ветки <branch name>
