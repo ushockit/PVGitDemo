@@ -1,9 +1,11 @@
 using System;
-
+using System.Collections;
+using System.Collections.Generic;
 
 
 namespace SomeProject {
     class Program {
+        static List<string> items = new List<string> { "Item 1", "Item 2", "Item 3" };
         static void Main(string[] args) {
 
             int action;
