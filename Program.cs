@@ -26,6 +26,11 @@ namespace SomeProject {
                 break;
                 case 3:
                     Environment.Exit(0);
+                    break;
+                case 3:
+                    foreach(var item in items) {
+                        Console.WriteLine(item);
+                    }
                 break;
             }
 
