@@ -8,6 +8,7 @@ namespace SomeProject {
     {
         public string Name { get; set; }
         public int Value { get; set; }
+        public string Description { get; set; }
     }
     class Program {
         static List<string> items = new List<string> { "Item 1", "Item 2", "Item 3" };
