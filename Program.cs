@@ -6,7 +6,8 @@ using System.Collections.Generic;
 namespace SomeProject {
     class Item 
     {
-        public string Name { get; set; }
+        public string Value { get; set; }
+        public string Description { get; set; }
     }
     class Program {
         static List<string> items = new List<string> { "Item 1", "Item 2", "Item 3" };
