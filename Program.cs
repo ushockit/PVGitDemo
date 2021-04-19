@@ -11,7 +11,9 @@ namespace SomeProject {
             int action;
 
             Console.WriteLine("[1] Start");
-            Console.WriteLine("[2] Exit");
+            Console.WriteLine("[2] Search item");
+            Console.WriteLine("[3] Exit");
+
             int.TryParse(Console.ReadLine(), out action);
 
             switch(action) {
@@ -20,6 +22,9 @@ namespace SomeProject {
                     Start();
                 break;
                 case 2:
+                    SearchItem("Item 2");
+                break;
+                case 3:
                     Environment.Exit(0);
                 break;
             }
@@ -39,6 +44,10 @@ namespace SomeProject {
                     }
                 }
             }
+        }
+
+        static string SearchItem(string srchItem) {
+            return items.FirstOrDefault(item => item.Equals(srchItem));
         }
     }
 }
