@@ -4,9 +4,10 @@ using System.Collections.Generic;
 
 
 namespace SomeProject {
-    class Item 
+    class SomeItem
     {
         public string Name { get; set; }
+        public int Value { get; set; }
     }
     class Program {
         static List<string> items = new List<string> { "Item 1", "Item 2", "Item 3" };
